@@ -1,14 +1,14 @@
 ### Task Description
 
-MongoDB: To store the student data
-Express: To build the server-side application
-React: To build the client-side application
-Node.js: To run the server-side application
-Redux: To manage the state of the application
-Mongoose: To model the student data and interact with the MongoDB database
-React Router: To handle client-side routing
-PDFKit: To generate the PDF file
-json2xls: To export the data to an Excel file
+- MongoDB: To store the student data
+- Express: To build the server-side application
+- React: To build the client-side application
+- Node.js: To run the server-side application
+- Redux: To manage the state of the application
+- Mongoose: To model the student data and interact with the MongoDB database
+- React Router: To handle client-side routing
+- PDFKit: To generate the PDF file
+- json2xls: To export the data to an Excel file
 
 1] Admin login via MongoDB dynamic module Use Redux for State management
 
