@@ -1,8 +1,8 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { ListGroup, Button, Modal, Form } from 'react-bootstrap';
-import json2xls from 'json2xls';
-import ExportFile from './ExportFile';
+// import json2xls from 'json2xls';
+// import ExportFile from './ExportFile';
 
 const Dashboard = () => {
   const [students, setStudents] = useState([]);
@@ -28,6 +28,7 @@ const Dashboard = () => {
   }, [])
 
   const handleDelete = (id) => {
+    console.log("id", id)
     // const updatedStudents = students.filter((student) => student.id !== id);
     // setStudents(updatedStudents);
   };

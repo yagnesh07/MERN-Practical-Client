@@ -1,5 +1,6 @@
 import React from 'react';
 import json2xls from 'json2xls';
+import PropTypes from 'prop-types';
 
 function ExportFile({ data, fileName }) {
   const handleExport = () => {
@@ -21,6 +22,11 @@ function ExportFile({ data, fileName }) {
       </button>
     </div>
   );
+}
+
+ExportFile.propTypes = {
+  data: PropTypes.any,
+  fileName: PropTypes.any,
 }
 
 export default ExportFile;
